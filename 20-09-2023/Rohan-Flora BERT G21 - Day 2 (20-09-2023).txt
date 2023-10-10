@@ -1,0 +1,3 @@
+Flora BERT G21 - Day 2 (20-09-2023)
+
+We further learned about the FloraBERT transformer from the research paper at https://assets.researchsquare.com/files/rs-1927200/v1_covered.pdf?c=1661877236 . We have learned from the paper some important terms related to our project. We've learnt how genomic expressions can be predicted from from DNA and RNA. We've also looked at some websites mentioned in the research paper for dataset.

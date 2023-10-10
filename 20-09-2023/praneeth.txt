@@ -1,0 +1,9 @@
+Flora BERT G21 - Day 2 (20-09-2023)
+
+1.https://ftp.ebi.ac.uk/ensemblgenomes/pub/
+2.https://ftp.ncbi.nlm.nih.gov/genomes/refseq/
+
+3.https://www.ncbi.nlm.nih.gov/assembly/?term=Bos+taurus
+
+looked at the above directories for data sequences and made a separate google sheets for gene_link, annot_link, fasta_link
+
