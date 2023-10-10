@@ -1,0 +1,6 @@
+Day 4 (22-09-2023)
+Flora BERT G21
+
+np.all(ensembel_df["fasta_link"].str.contains(".dna.toplevel.fa.gz"))
+
+Gathered the links and pasted them to their respective positions in the sheets for the ensembl link db
