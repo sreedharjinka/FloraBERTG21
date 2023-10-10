@@ -1,0 +1,11 @@
+Today, We focused on exploring several dataset websites relevant to my goal of training a BERT model for predicting genomic expressions/endophenotypes from basic DNA/RNA sequences.
+
+This is what I've found about the websites: 
+
+Miaze GDB: I started by investigating the Miaze GDB (Genome Database for Maize) for potential datasets. This resource likely contains genomic data related to maize, which could be valuable for model training. I checked if they have the necessary data for my project.
+
+Ensemble FTP: The Ensemble FTP server is a rich source of genomic data from various organisms. I searched for datasets specific to the genomic expressions and endophenotypes 
+
+RefSeq: RefSeq is a comprehensive database of genomic sequences and annotations. I explored it to identify relevant datasets that could aid in training my BERT model. I should verify if they provide the necessary information and download any pertinent datasets.
+
+Overall, today our exploration of these dataset websites was essential for gathering potential data sources for my BERT model. 

@@ -1,0 +1,9 @@
+np.all(ensembel_df["fasta_link"].str.contains(".dna.toplevel.fa.gz"))
+
+I understood that the directory liks should have suffix of ".dna.toplevel.fa.gz" to process the code, hence made a separate google sheet file for gene_link from (ensembel_df). Find it here "https://docs.google.com/spreadsheets/d/1pJfgf_AZjv4GvvM_h3Zdo2a1fyBdvcvx0LsZTGvDVpE/edit#gid=0"
+The above link has both gene_link && annot_link for ref
+
+
+Similiar to Ensembl i started to make a separate google sheet for data from RefSeq. Find it here "https://docs.google.com/spreadsheets/d/1Kpbw1ODUpyQIazwQGX10Zj-kM3n6O8lzjTihbfnpmZI/edit#gid=0"
+
+Overall, today our exploration of these dataset websites was essential for gathering potential data sources for my BERT model
