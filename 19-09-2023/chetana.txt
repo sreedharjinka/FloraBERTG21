@@ -1,0 +1,14 @@
+FLORABERT   [19-09-23]
+                                                                                                            K.CHETANA
+This is a BERT based transfer learning model that follows the concept of self attention, derived from fields of NLP and ML.
+We need to know the association between phenotype [physical and visible properties of plants] and genotype to produce the next genetic sequence for the phenotype.
+Limitations of previous models:
+1.lacks high degree of generalizability
+2. Insensitive to data differences
+The FLORABERT model allows us to predict traits based on genetic information while using the genetic data from available plant reference genomes. [not genetic markers from a single reference genome].
+FLORABERT has improved ability to make accurate predictions for specific tasks within individual species.
+Database As per the article, Databases [3 being used:  Ensembl Plants, RefSeq, and MaizeGDB] contains information about whole genome assemblies for several hundred species. [This paper specifically uses a "maize" database].The dataset contains paralogs[similar sequence due to common history].
+Data Split All paralogs within a group were assigned to either the training set or the testing set which helps maintain the integrity of the data.  [As models won’t be able to just memorise gene expression patterns.] And a 70:30 split was done for training and testing data.
+Model  FLORABERT architecture is based on the RoBERTa transformer model. 6 successive transformer layers with each having 6 self attention layers was used.
+The model here creates a summary of the given gene which will be fed as an input to next layers. [So the predictions consider overall information rather than individual pieces]
+Fine Tuning and Result The model uses strategies like LAMB optimizer and Linear warm up, instead of decreasing the learning rate linearly. Overall, the FLORABERT is distinct from previous plant-specific models due to its use of transfer learning to aggregate gene regulatory knowledge from all plant genomes for improved ability to make accurate predictions for specific tasks within individual species.

@@ -1,0 +1,30 @@
+FLORA BERT SUMMARY 19-09-2023
+                                                                Rohan Siddardha 
+                                                                                        
+
+Let us understand some keywords related to genomics before we dive deeper.
+
+Phenotype : A phenotype is the set of observable characteristics of an individual resulting from the interaction of its Genotype with the environment.
+        
+Genotype : It represents or refers to the genetic makeup of an organism. It describes/refers to the complete set of genes of an organism.
+
+Endophenotypes : Also known as intermediate phenotypes, they are characteristics or traits that are intermediate steps between a person’s genetic makeup and the outward expression of its complex trait. 
+Basically the concept of endophenotypes is used in research to break down complex traits or disorders into simpler components 
+      
+           
+           Taxonomical : Concerned with the classification of organisms
+
+Nucleotide : The basic building block of nucleic acids (RNA and DNA) ie         Ribose(RNA) or Deoxyribose(DNA)
+
+ Promoter region  : A region that controls gene expression. 
+  
+
+Summary of Flora BERT : 
+  
+        The target of Flora BERT is to be able to improve predictions of gene expressions in a target species. Research has shown that deep learning models can be applied to predict endophenotypes from an organism’s regular DNA. To put it simply, scientists have used machine learning to understand how genes are expressed based on DNA information.
+
+FloraBERT is a new deep learning model. This model is based on transfer learning , a technique that allows a model to leverage knowledge learned from one domain(species) to improve its performance in another.
+
+                  Flora BERT uses transfer learning because it can predict gene expression in a specific plant species by leveraging information from a wide range of plant species. ForaBERT during training, managed to capture information related to the taxonomic similarity between species i.e. how closely they are related in evolutionary terms. It also captures information significance of position of nucleotides within a promoter region. 
+
+             FloraBERT takes advantage of genome assemblies from all plants to improve its predictions from a specific species. We have used deep learning techniques such as NLP , image processing to understand causal effects of genetic variants. Initially these Transfer Learning models to learn from vast amounts of unlabelled genetic data from various species and then fine tune to make predictions.

@@ -1,0 +1,2 @@
+Vaishnav Narigiri,
+		The paper talks about 9 distinct maize tissues in a maize plant: endosperm, tassel inflorescence, leaf base, anther, leaf, ear inflorescence, shoot, root, and leaf tip from the MaizeGDB22 database  The neural network used is BERT model with 6 successive Transformers(encoders) with 6 different attention heads.The mRNA expression levels are predicted from the promoter sequences.The BERT model is useful in this case because nucleotide positions has great influence on the transcription start site (TSS) if they are situated closer to TSS.

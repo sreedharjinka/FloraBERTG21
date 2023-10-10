@@ -1,0 +1,11 @@
+CH Praneeth - 19-09-2023
+
+FloraBERT is a transfer learning model designed to enhance gene expression predictions within a single target species. The model's strength lies in its ability to leverage genome assemblies from a wide range of plant species as its primary data source.
+
+Unlike DNABERT, which relies on a single species in its pretraining step, FloraBERT employs multiple species during this phase. It gathers plant DNA sequences from three key databases: Ensembl Plants, RefSeq, and MaizeGDB. Ensembl Plants and RefSeq provide comprehensive whole genome assemblies for hundreds of plant species, while MaizeGDB focuses specifically on maize.
+
+FloraBERT's architecture is rooted in the RoBERTa model. It begins with randomly initialised weights and undergoes supervised learning to fine-tune the language model using gene expression data sourced from the aforementioned databases.
+
+In the schematic representation of FloraBERT, the tokenized input is fed into six transformers, each equipped with six independent attention heads. This design enhances the model's ability to capture complex patterns in the data.
+
+Overall, FloraBERT demonstrates superior performance compared to the traditional bag-of-k-mers approach, making it a valuable tool for improving gene expression predictions in plant biology research.
