@@ -1,0 +1,14 @@
+We had gone through the research-paper, trying to understand the structure of the project and found the link for repository which have implementation for FloraBERT-> https://github.com/benlevyx/florabert 
+
+With the help of ReadME file i have installed all the softwares and modules required -> https://github.com/benlevyx/florabert/blob/main/requirements.txt
+which consists of their names and versions
+
+beautifulsoup4~=4.9
+biopython~=1.78
+boto3
+click~=7.1
+-e ./module
+ipython~=7.18
+joblib~=0.16
+matplotlib~=3.3
+......

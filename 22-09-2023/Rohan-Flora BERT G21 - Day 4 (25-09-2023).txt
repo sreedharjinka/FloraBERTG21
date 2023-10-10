@@ -1,0 +1,3 @@
+We have found a github repository link in the research paper mentioned previously and we had gone through the repository, trying to understand the structure of the project. The link which we found in the research paper is https://github.com/benlevyx/florabert 
+I have read the Readme of the repository trying to understand what each file/ block of code does. 
+All the requirements needed to run the project are mentioned at https://github.com/benlevyx/florabert/blob/main/requirements.txt and I have looked at how and to install all the requirements.
